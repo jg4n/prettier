@@ -52,7 +52,6 @@ class FormatResultsCache {
     this.#fileEntryCache = fileEntryCache.createFromFile(
       /* filePath */ cacheFileLocation,
       useChecksum,
-      currentWorkingDirectory,
     );
   }
 
